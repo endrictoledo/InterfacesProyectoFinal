@@ -12,14 +12,14 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace InterfacesProyectoFinal
+namespace InterfacesProyectoFinal.Views
 {
     /// <summary>
-    /// Lógica de interacción para GUILogin.xaml
+    /// Lógica de interacción para GUIVerificationCode.xaml
     /// </summary>
-    public partial class GUILogin : Window
+    public partial class GUIVerificationCode : Window
     {
-        public GUILogin()
+        public GUIVerificationCode()
         {
             InitializeComponent();
         }

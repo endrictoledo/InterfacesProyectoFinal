@@ -121,7 +121,7 @@
     <value>Acceder</value>
   </data>
   <data name="sing_up" xml:space="preserve">
-    <value>Crear cuenta</value>
+    <value>Registrarse</value>
   </data>
   <data name="play_as_a_guest" xml:space="preserve">
     <value>Jugar como invitado</value>
@@ -137,5 +137,71 @@
   </data>
   <data name="language" xml:space="preserve">
     <value>Lenguaje</value>
+  </data>
+  <data name="username" xml:space="preserve">
+    <value>Nombre de usuario</value>
+  </data>
+  <data name="email" xml:space="preserve">
+    <value>Correo electrónico</value>
+  </data>
+  <data name="password" xml:space="preserve">
+    <value>Contraseña</value>
+  </data>
+  <data name="confirm_password" xml:space="preserve">
+    <value>Confirmar contraseña</value>
+  </data>
+  <data name="back" xml:space="preserve">
+    <value>Regresar</value>
+  </data>
+  <data name="forgot_password" xml:space="preserve">
+    <value>¿Olvidó su contraseña?</value>
+  </data>
+  <data name="confirm" xml:space="preserve">
+    <value>Confirmar</value>
+  </data>
+  <data name="resend_code" xml:space="preserve">
+    <value>Reenviar código</value>
+  </data>
+  <data name="we_send" xml:space="preserve">
+    <value>Enviamos un código de verificación a: </value>
+  </data>
+  <data name="enter_it" xml:space="preserve">
+    <value>. Introdúzcalo a continuación para confirmar su identidad.</value>
+  </data>
+  <data name="verification_code" xml:space="preserve">
+    <value>Código de verificación</value>
+  </data>
+  <data name="play_online" xml:space="preserve">
+    <value>Jugar en línea</value>
+  </data>
+  <data name="play_with_a_friend" xml:space="preserve">
+    <value>Jugar con un amigo</value>
+  </data>
+  <data name="ranking" xml:space="preserve">
+    <value>Clasificación global</value>
+  </data>
+  <data name="friends" xml:space="preserve">
+    <value>Amigos</value>
+  </data>
+  <data name="settings" xml:space="preserve">
+    <value>Opciones</value>
+  </data>
+  <data name="main_menu" xml:space="preserve">
+    <value>Menú principal</value>
+  </data>
+  <data name="update_password" xml:space="preserve">
+    <value>Actualizar contraseña</value>
+  </data>
+  <data name="new_password" xml:space="preserve">
+    <value>Nueva contraseña</value>
+  </data>
+  <data name="save_new_password" xml:space="preserve">
+    <value>Guardar nueva contraseña</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="confirm_new_password" xml:space="preserve">
+    <value>Confirmar nueva contraseña</value>
   </data>
 </root>

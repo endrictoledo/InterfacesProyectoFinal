@@ -12,14 +12,14 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace InterfacesProyectoFinal
+namespace InterfacesProyectoFinal.Views
 {
     /// <summary>
-    /// Lógica de interacción para GUIMainMenu.xaml
+    /// Lógica de interacción para GUIUpdatePassword.xaml
     /// </summary>
-    public partial class GUIMainMenu : Window
+    public partial class GUIUpdatePassword : Window
     {
-        public GUIMainMenu()
+        public GUIUpdatePassword()
         {
             InitializeComponent();
         }

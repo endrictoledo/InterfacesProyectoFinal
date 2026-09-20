@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:InterfacesProyectoFinal"
         mc:Ignorable="d"
-        Title="SignUp" Height="450" Width="800">
+        xmlns:p="clr-namespace:InterfacesProyectoFinal.Properties"
+        Title="{x:Static p:Resources.sing_up}" Height="450" Width="800">
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="/Images/fondoMarino2.jpg"
@@ -17,7 +18,7 @@
                     Margin="20,0,0,0">
 
             <Grid Margin="0,0,0,15" Height="101" Width="447" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <Label Content="Colonia Marina" 
+                <Label Content="{x:Static p:Resources.title}" 
                        FontSize="50"
                        Foreground="White"
                        HorizontalAlignment="Center" 
@@ -26,7 +27,7 @@
                        Width="356" Height="78"/>
             </Grid>
             <StackPanel>
-                <Label Content="Username"
+                <Label Content="{x:Static p:Resources.username}"
                        FontSize="14"
                        HorizontalAlignment="Left" 
                        Margin="50,0,0,5" 
@@ -36,7 +37,7 @@
                         Height="25"
                         Margin="0,0,0,5"
                         Width="350"/>
-                <Label Content="Email"
+                <Label Content="{x:Static p:Resources.email}"
                        FontSize="14"
                        HorizontalAlignment="Left" 
                        Margin="50,0,0,5" 
@@ -47,7 +48,7 @@
                         Margin="0,0,0,5"
                         Width="350"/>
 
-                <Label Content="Password"
+                <Label Content="{x:Static p:Resources.password}"
                        FontSize="14"
                        HorizontalAlignment="Left" 
                        Margin="50,0,0,5" 
@@ -56,7 +57,7 @@
                         Height="25"
                         Margin="0,0,0,5"
                         Width="350"/>
-                <Label Content="Confirm password"
+                <Label Content="{x:Static p:Resources.confirm_password}"
                        FontSize="14"
                        HorizontalAlignment="Left" 
                        Margin="50,0,0,5" 
@@ -67,7 +68,7 @@
                        Margin="0,0,0,20"
                        Width="350"/>
 
-                <Button Content="Log in"
+                <Button Content="{x:Static p:Resources.login}"
                         Background="#73AB4B"
                         BorderThickness="0"
                         Foreground="White"
@@ -76,7 +77,7 @@
                         Width="350"/>
             </StackPanel>
         </StackPanel>
-        <Button Content="Back"
+        <Button Content="{x:Static p:Resources.back}"
                 Background="#73AB4B"
                 BorderThickness="0"
                 Foreground="White"

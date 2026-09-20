@@ -61,6 +61,87 @@ namespace InterfacesProyectoFinal.Properties {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Back.
+        /// </summary>
+        public static string back {
+            get {
+                return ResourceManager.GetString("back", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Cancel.
+        /// </summary>
+        public static string cancel {
+            get {
+                return ResourceManager.GetString("cancel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Confirm.
+        /// </summary>
+        public static string confirm {
+            get {
+                return ResourceManager.GetString("confirm", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Confirm new password.
+        /// </summary>
+        public static string confirm_new_password {
+            get {
+                return ResourceManager.GetString("confirm_new_password", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Confirm password.
+        /// </summary>
+        public static string confirm_password {
+            get {
+                return ResourceManager.GetString("confirm_password", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Email.
+        /// </summary>
+        public static string email {
+            get {
+                return ResourceManager.GetString("email", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Enter it below to confirm your identity.
+        /// </summary>
+        public static string enter_it {
+            get {
+                return ResourceManager.GetString("enter_it", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Forgot password?.
+        /// </summary>
+        public static string forgot_password {
+            get {
+                return ResourceManager.GetString("forgot_password", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Friends.
+        /// </summary>
+        public static string friends {
+            get {
+                return ResourceManager.GetString("friends", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Language.
         /// </summary>
         public static string language {
@@ -79,6 +160,33 @@ namespace InterfacesProyectoFinal.Properties {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Main menu.
+        /// </summary>
+        public static string main_menu {
+            get {
+                return ResourceManager.GetString("main_menu", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a New password.
+        /// </summary>
+        public static string new_password {
+            get {
+                return ResourceManager.GetString("new_password", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Password.
+        /// </summary>
+        public static string password {
+            get {
+                return ResourceManager.GetString("password", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Play as a guest.
         /// </summary>
         public static string play_as_a_guest {
@@ -88,11 +196,65 @@ namespace InterfacesProyectoFinal.Properties {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Play online.
+        /// </summary>
+        public static string play_online {
+            get {
+                return ResourceManager.GetString("play_online", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Play with a friend.
+        /// </summary>
+        public static string play_with_a_friend {
+            get {
+                return ResourceManager.GetString("play_with_a_friend", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Quit.
         /// </summary>
         public static string quit {
             get {
                 return ResourceManager.GetString("quit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Ranking global.
+        /// </summary>
+        public static string ranking {
+            get {
+                return ResourceManager.GetString("ranking", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Resend code.
+        /// </summary>
+        public static string resend_code {
+            get {
+                return ResourceManager.GetString("resend_code", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Save new password.
+        /// </summary>
+        public static string save_new_password {
+            get {
+                return ResourceManager.GetString("save_new_password", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Settings.
+        /// </summary>
+        public static string settings {
+            get {
+                return ResourceManager.GetString("settings", resourceCulture);
             }
         }
         
@@ -120,6 +282,42 @@ namespace InterfacesProyectoFinal.Properties {
         public static string title_screen {
             get {
                 return ResourceManager.GetString("title_screen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Update password.
+        /// </summary>
+        public static string update_password {
+            get {
+                return ResourceManager.GetString("update_password", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Username.
+        /// </summary>
+        public static string username {
+            get {
+                return ResourceManager.GetString("username", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Verification code.
+        /// </summary>
+        public static string verification_code {
+            get {
+                return ResourceManager.GetString("verification_code", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a We send a verification code to: .
+        /// </summary>
+        public static string we_send {
+            get {
+                return ResourceManager.GetString("we_send", resourceCulture);
             }
         }
     }

@@ -51,40 +51,54 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
-    <ApplicationDefinition Include="App.xaml">
+    <ApplicationDefinition Include="Views\App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="GUISignUp.xaml.cs">
+    <Compile Include="Views\GUISignUp.xaml.cs">
       <DependentUpon>GUISignUp.xaml</DependentUpon>
     </Compile>
-    <Compile Include="GUILogin.xaml.cs">
+    <Compile Include="Views\GUILogin.xaml.cs">
       <DependentUpon>GUILogin.xaml</DependentUpon>
     </Compile>
-    <Compile Include="GUIMainMenu.xaml.cs">
+    <Compile Include="Views\GUIMainMenu.xaml.cs">
       <DependentUpon>GUIMainMenu.xaml</DependentUpon>
     </Compile>
-    <Page Include="GUISignUp.xaml">
+    <Compile Include="Views\GUIUpdatePassword.xaml.cs">
+      <DependentUpon>GUIUpdatePassword.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GUIVerificationCode.xaml.cs">
+      <DependentUpon>GUIVerificationCode.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Views\GUISignUp.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="GUITitleScreen.xaml">
+    <Page Include="Views\GUITitleScreen.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Compile Include="App.xaml.cs">
+    <Compile Include="Views\App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GUITitleScreen.xaml.cs">
+    <Compile Include="Views\GUITitleScreen.xaml.cs">
       <DependentUpon>GUITitleScreen.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="GUILogin.xaml">
+    <Page Include="Views\GUILogin.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="GUIMainMenu.xaml">
+    <Page Include="Views\GUIMainMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GUIUpdatePassword.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GUIVerificationCode.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

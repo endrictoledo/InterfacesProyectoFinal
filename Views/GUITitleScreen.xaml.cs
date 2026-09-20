@@ -30,9 +30,19 @@ namespace InterfacesProyectoFinal
 
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void BtnAbrirIdiomas_Click(object sender, RoutedEventArgs e)
         {
+            MenuLanguagesOverlay.Visibility = Visibility.Visible;
+        }
 
+        private void BtnCerrarMenu_Click(object sender, RoutedEventArgs e)
+        {
+            MenuLanguagesOverlay.Visibility = Visibility.Collapsed;
+        }
+
+        private void BtnCerrarVentana_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }

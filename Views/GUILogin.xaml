@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:InterfacesProyectoFinal"
         mc:Ignorable="d"
-        Title="Login" Height="450" Width="800">
+        xmlns:p="clr-namespace:InterfacesProyectoFinal.Properties"
+        Title="{x:Static p:Resources.login}" Height="450" Width="800">
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="/Images/fondoMarino2.jpg"
@@ -17,7 +18,7 @@
                     Margin="20,0,0,0">
 
             <Grid Margin="0,0,0,30">
-                <Label Content="Colonia Marina" 
+                <Label Content="{x:Static p:Resources.title}" 
                        FontSize="50"
                        Foreground="White"
                        HorizontalAlignment="Center" 
@@ -26,7 +27,7 @@
                        Width="356" Height="78"/>
             </Grid>
             <StackPanel>
-                <Label Content="Username"
+                <Label Content="{x:Static p:Resources.username}"
                        FontSize="14"
                        HorizontalAlignment="Left" 
                        Margin="50,0,0,5" 
@@ -37,7 +38,7 @@
                         Margin="0,0,0,20"
                         Width="350"/>
 
-                <Label Content="Password"
+                <Label Content="{x:Static p:Resources.password}"
                        FontSize="14"
                        HorizontalAlignment="Left" 
                        Margin="50,0,0,5" 
@@ -47,43 +48,44 @@
                         Margin="0,0,0,30"
                         Width="350"/>
                 
-                <Button Content="Log in"
+                <Button Content="{x:Static p:Resources.login}"
                         Background="#73AB4B"
                         BorderThickness="0"
                         Foreground="White"
-                        Height="25" 
+                        Padding="6"
                         Margin="0,0,0,30"
                         Width="350"/>
             </StackPanel>
         </StackPanel>
-        <Button Content="Back"
+        <Button Content="{x:Static p:Resources.back}"
                 Background="#73AB4B"
                 BorderThickness="0"
                 Foreground="White"
-                Height="25" 
+                
                 Margin="0,40,20,0"
-                Width="100"
+                Padding="6"
                 HorizontalAlignment="Right"
                 VerticalAlignment="Top"/>
 
-        <Button Content="Forgot Password?"
+        <Button Content="{x:Static p:Resources.forgot_password}"
                 Background="#73AB4B"
                 BorderThickness="0"
                 Foreground="White"
-                Height="25" 
+                Padding="6"
                 Margin="0,0,20,20"
-                Width="100"
+                
                 HorizontalAlignment="Right"
                 VerticalAlignment="Bottom"/>
             
-        <Button Content="Sign up"
+        <Button Content="{x:Static p:Resources.sing_up}"
                 Background="#73AB4B"
                 BorderThickness="0"
                 Foreground="White"
-                Height="25" 
+                
                 Margin="0,0,20, 60"
-                Width="100"
+                Padding="6"
                 HorizontalAlignment="Right"
                 VerticalAlignment="Bottom"/>
+        
     </Grid>
 </Window>
