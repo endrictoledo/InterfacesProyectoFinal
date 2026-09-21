@@ -137,7 +137,7 @@
                             VerticalAlignment="Top" 
                             Margin="0,0,0,0">
 
-                        <Label Content="Settings" 
+                        <Label Content="{x:Static p:Resources.settings}" 
                                Foreground="White" 
                                FontWeight="Bold" 
                                HorizontalAlignment="Center" 
@@ -148,7 +148,7 @@
                                 
                                 Margin="0,50,0,0">
                         
-                        <Button Content="Profile" 
+                        <Button Content="{x:Static p:Resources.profile}" 
                                      FontSize="16" 
                                      Margin="70,20,0,0" 
                                      HorizontalAlignment="Left"
@@ -159,7 +159,7 @@
                                      Foreground="White"
                                      Click="BtnProfile_Click"/>
                         
-                        <Button Content="Languajes" 
+                        <Button Content="{x:Static p:Resources.language}" 
                                      FontSize="16" 
                                      Margin="70,10,0,0" 
                                      HorizontalAlignment="Left"
@@ -202,7 +202,7 @@
                             VerticalAlignment="Top" 
                             Margin="0,0,20,0">
 
-                        <Label Content="Language" 
+                        <Label Content="{x:Static p:Resources.language}" 
                                Foreground="White" 
                                FontWeight="Bold" 
                                HorizontalAlignment="Center" 
@@ -211,17 +211,126 @@
 
                     <StackPanel VerticalAlignment="Center" 
                                 Margin="0,0,0,0">
-                        <RadioButton Content="English" 
+                        <RadioButton Content="{x:Static p:Resources.english}" 
                                      FontSize="16" 
                                      Margin="70,0,20,20" 
                                      HorizontalAlignment="Left"/>
-                        <RadioButton Content="Español" 
+                        <RadioButton Content="{x:Static p:Resources.spanish}" 
                                      FontSize="16" 
                                      Margin="70,10,20,20" 
                                      HorizontalAlignment="Left"/>
                     </StackPanel>
                 </Grid>
 
+            </Border>
+        </Grid>
+        <Grid x:Name="MenuProfileOverlay" 
+              Background="#99000000" 
+              Visibility="Collapsed">
+
+            
+            <Border Background="#CFD6D9" 
+                    Width="360" 
+                    Height="400 " 
+                    
+                    HorizontalAlignment="Center" 
+                    VerticalAlignment="Center">
+
+                
+                <Grid Margin="20">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        
+                        <RowDefinition Height="Auto"/>
+
+                        <RowDefinition Height="*"/>
+                        
+                    </Grid.RowDefinitions>
+
+                
+                    <Grid Grid.Row="0" 
+                          Margin="0,0,0,20">
+                        
+                        <Border Background="#9E9E9E" 
+                                Height="35" 
+                                Width="120" 
+                                HorizontalAlignment="Center">
+                            
+                            <Label Content="{x:Static p:Resources.profile}" 
+                                   Foreground="White" 
+                                   FontWeight="Bold" 
+                                   HorizontalAlignment="Center" 
+                                   VerticalAlignment="Center"/>
+                        </Border>
+ 
+                        <Button Content="x" 
+                                Background="#D32F2F" 
+                                Foreground="Black" 
+                                Width="30" Height="30" 
+                                BorderThickness="0" 
+                                HorizontalAlignment="Right" 
+                                Click="BtnCerrarMenuProfile_Click"/>
+                    </Grid>
+                    
+                    <Grid Grid.Row="1" 
+                          Margin="0,0,0,20">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100"/>
+                           
+                            <ColumnDefinition Width="*"/>
+                           
+                        </Grid.ColumnDefinitions>
+
+                        
+                        <Grid Grid.Column="0" 
+                              Height="100" 
+                              Width="100" 
+                              Background="White" 
+                              VerticalAlignment="Top">
+                            
+                            <Image Stretch="UniformToFill"/>
+                        </Grid>
+
+                        
+                        <StackPanel Grid.Column="1" 
+                                    Margin="15,0,0,0">
+                            <Label Content="{x:Static p:Resources.username}" 
+                                   FontSize="12" Padding="0,0,0,2"/>
+                            <Label Content="Nombre del usuario"
+                                   Height="25" 
+                                   Margin="0,0,0,5" 
+                                   Background="#A3AEB3" 
+                                   BorderThickness="0"/>
+
+                            <Label Content="{x:Static p:Resources.email}" 
+                                   FontSize="12" 
+                                   Padding="0,0,0,2"/>
+                            <Label Content="Correo del usuario"
+                                   Height="25" 
+                                   Margin="0,0,0,10" 
+                                   Background="#A3AEB3" 
+                                   BorderThickness="0"/>
+
+                            <Button Content="{x:Static p:Resources.change_password}" 
+                                    Background="#73AB4B" 
+                                    BorderThickness="0" 
+                                    Foreground="White" 
+                                    FontWeight="Bold" 
+                                    Height="25"/>
+                        </StackPanel>
+                    </Grid>
+ 
+                    <Button Grid.Row="3" 
+                            Content="{x:Static p:Resources.save_changes}" 
+                            Background="#73AB4B" 
+                            BorderThickness="0" 
+                            FontWeight="Bold" 
+                            Width="120" 
+                            Height="30" 
+                            HorizontalAlignment="Right" 
+                            VerticalAlignment="Bottom"/>
+
+                </Grid>
             </Border>
         </Grid>
     </Grid>

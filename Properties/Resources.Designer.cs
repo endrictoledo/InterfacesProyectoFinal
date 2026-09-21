@@ -70,11 +70,29 @@ namespace InterfacesProyectoFinal.Properties {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Back.
+        /// </summary>
+        public static string back1 {
+            get {
+                return ResourceManager.GetString("back1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Cancel.
         /// </summary>
         public static string cancel {
             get {
                 return ResourceManager.GetString("cancel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Change password.
+        /// </summary>
+        public static string change_password {
+            get {
+                return ResourceManager.GetString("change_password", resourceCulture);
             }
         }
         
@@ -111,6 +129,15 @@ namespace InterfacesProyectoFinal.Properties {
         public static string email {
             get {
                 return ResourceManager.GetString("email", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a English.
+        /// </summary>
+        public static string english {
+            get {
+                return ResourceManager.GetString("english", resourceCulture);
             }
         }
         
@@ -214,6 +241,15 @@ namespace InterfacesProyectoFinal.Properties {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Profile.
+        /// </summary>
+        public static string profile {
+            get {
+                return ResourceManager.GetString("profile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Quit.
         /// </summary>
         public static string quit {
@@ -241,6 +277,15 @@ namespace InterfacesProyectoFinal.Properties {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Save changes.
+        /// </summary>
+        public static string save_changes {
+            get {
+                return ResourceManager.GetString("save_changes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Save new password.
         /// </summary>
         public static string save_new_password {
@@ -264,6 +309,15 @@ namespace InterfacesProyectoFinal.Properties {
         public static string sing_up {
             get {
                 return ResourceManager.GetString("sing_up", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Spanish.
+        /// </summary>
+        public static string spanish {
+            get {
+                return ResourceManager.GetString("spanish", resourceCulture);
             }
         }
         

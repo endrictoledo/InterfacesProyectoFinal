@@ -153,6 +153,9 @@
   <data name="back" xml:space="preserve">
     <value>Regresar</value>
   </data>
+  <data name="back1" xml:space="preserve">
+    <value>Regresar</value>
+  </data>
   <data name="forgot_password" xml:space="preserve">
     <value>¿Olvidó su contraseña?</value>
   </data>
@@ -203,5 +206,20 @@
   </data>
   <data name="confirm_new_password" xml:space="preserve">
     <value>Confirmar nueva contraseña</value>
+  </data>
+  <data name="english" xml:space="preserve">
+    <value>Inglés</value>
+  </data>
+  <data name="spanish" xml:space="preserve">
+    <value>Español</value>
+  </data>
+  <data name="profile" xml:space="preserve">
+    <value>Perfil</value>
+  </data>
+  <data name="save_changes" xml:space="preserve">
+    <value>Guardar cambios</value>
+  </data>
+  <data name="change_password" xml:space="preserve">
+    <value>Cambiar contraseña</value>
   </data>
 </root>

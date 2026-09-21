@@ -41,7 +41,8 @@ namespace InterfacesProyectoFinal
 
         private void BtnProfile_Click(object sender, RoutedEventArgs e)
         {
-
+            MenuSettingsOverlay.Visibility = Visibility.Collapsed;
+            MenuProfileOverlay.Visibility = Visibility.Visible;
         }
         private void BtnLanguages_Click(object sender, RoutedEventArgs e)
         {
@@ -53,5 +54,12 @@ namespace InterfacesProyectoFinal
             MenuLanguagesOverlay.Visibility = Visibility.Collapsed;
             MenuSettingsOverlay.Visibility = Visibility.Visible;
         }
+        private void BtnCerrarMenuProfile_Click(object sender, RoutedEventArgs e)
+        {
+            MenuProfileOverlay.Visibility = Visibility.Collapsed;
+            MenuSettingsOverlay.Visibility = Visibility.Visible;
+        }
+
     }
+
 }
